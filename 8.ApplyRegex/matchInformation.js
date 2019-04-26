@@ -7,7 +7,7 @@ let words =
 const matchInformation = /\d+/.exec(words);
 
 console.log(
-  `The index is ${matchInformation.length}, the length of the matched word is ${
+  `The index is ${matchInformation.index}, the length of the matched word is ${
     matchInformation[0].length
   } and the actual match is ${matchInformation[0]}`
 );
